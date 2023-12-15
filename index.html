@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish - Developer Protfolio</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 62, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+          
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+           
+            color:rgb(208, 208, 12);
+            font-size: 1.04rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 10px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2.7rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+           padding: 12px;
+           background: #1e2167;
+           color: white;
+           border: 2px solid white;
+           border-radius: 6px;
+           font-size: 20px;
+           cursor: pointer;
+           
+        }
+      
+        .purple{
+            color:greenyellow;
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+        color: #1eff00;
+        }
+        .secondSection{
+            max-width:80vw;
+            margin:auto;
+            height:100vh;
+        }
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+              width: 80vw;
+              height: 2px;
+              margin: 56px 0;
+              display: flex;
+        }
+        .secondSection .vertical{
+            height:93px;
+            width:1px;
+            background-color: white;
+            margin: 0 100px
+        }
+        .image_top{
+            width:23px;
+            position: relative;
+            left: -9px;
+        }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size:14px;
+        left: -50px;
+
+      }
+      .vertical-desc{
+        position: relative;
+        top:86px;
+        color:gray;
+        font-size:15px;
+        width: 150px;
+        left: -50px;
+      }
+      footer{
+        background-color:#0e0e1a;
+ 
+     
+      }
+      .footer{
+        display: flex;
+        padding: 23px 112px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 223;
+      }
+      footer .footer-right{
+        text-align: center;
+        color: #1eff00;
+        padding: 12px 0;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Satish's Protfolio</div>
+            
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home  </a> </li>
+                    <li><a href="/">About   </a> </li>
+                    <li><a href="/">Services </a> </li>
+                    <li><a href="/">Projects </a> </li>
+                    <li><a href="/">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+          <div class="leftSection">
+            
+              Hi, My Name is<span class="purple"> Satish</span>
+              <div>and  I am passionate</div>
+             
+              <span id="element"></span>
+               <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+               </div>
+          </div>
+
+          <div class="rightSection">
+            <img src="photo-1.webp" width="60%" height="50%" alt=""/>
+          </div>
+       </section>
+       <hr>
+       <section class="secondSection">
+        <span class="text-gray">What I have Done so far</span>
+        <h1>Work Exprience</h1>
+           <div class="box">
+       
+           
+
+
+             <div class="vertical"> <img class="image_top" src="html.png">
+                <div class="vertical-title">
+                   
+                 HTML Developer (2019-2021)
+                </div>
+                <div class="vertical-desc">
+                    The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript
+                </div>
+ 
+             </div>
+
+              <div class="vertical"> <img class="image_top" src="CSS.png" alt=""/>
+                <div class="vertical-title">
+                 CSS Developer (2019-2021)
+                </div>
+                <div class="vertical-desc">
+                    Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
+                </div>
+ 
+             </div>
+              
+              
+              
+                 <div class="vertical"> <img class="image_top" src="JavaScript.png" alt=""/>
+                    <div class="vertical-title">
+                     JavaScript Developer (2019-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+                    </div>
+     
+                 </div>
+             
+              <div class="vertical"> <img class="image_top" src="Database.png" alt=""/>
+                <div class="vertical-title">
+                 Data Base Developer (2022-2023)
+                </div>
+                <div class="vertical-desc">
+                    A database is information that is set up for easy access, management and updating. Computer databases typically store aggregations of data records or files that contain information, such as sales transactions, customer data, financials and product information.
+                </div>
+ 
+               </div>
+             
+                <div class="vertical"> <img class="image_top" src="Frontend" alt=""/>
+                    <div class="vertical-title">
+                  Fronted Developer (2023-NoW)
+                    </div>
+                    <div class="vertical-desc">
+                        A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.
+                    </div>
+     
+                 </div>
+
+                 <div class="vertical"> <img class="image_top" src="Backend.jfif" alt=""/>
+                    <div class="vertical-title">
+                    Backend Developer (2023-NoW)
+                    </div>
+                    <div class="vertical-desc">
+                        Backend developers build code that allows a database and an application to communicate with one another. Backend developers take care and maintain the back-end of a website, Including databases, servers, and apps, and they control what you don't see.
+                    </div>
+     
+                 </div>
+              
+             
+            
+     
+                 </div>
+              </div>
+           </div>
+       </section>
+    </main>
+    <footer>
+        <div>
+            <div class="footer">
+                <div class="footer-first ">
+                    <h3>Satish's Developer Protfolio</h3>
+            
+                </div>
+                <div class="footer-Second "></div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="footer-third "></div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="footer-fourth "></div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+                  Copyright &#169  wwww.satishportfoli.com | All right reserved
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['MERN Stack Developer...' , 'Full Stack Developer...','Fronted Developer....','Backend Developer...','Software Enginneer...','Web Developer...','Backend Intern...','Junior Frontend Developer...','Frontend Trainne...'],
+         typeSpeed: 50,
+       });
+  </script>
+</body>
+</html>
